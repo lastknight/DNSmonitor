@@ -25,7 +25,8 @@ To run the script `sudo ruby DNSmontor.rb`. Superuser is needed for Pcap integra
 		twitter.com.	20	IN	A	168.143.161.20
 		twitter.com.	20	IN	A	168.143.171.180
 		
-<a href="http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg"><img src="http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg" width= 500 border=0></a>
+![Image](http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg)
+You can find a little Screenshot [here](http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg).
 
 The not indented lines are requests while indented ones are answers.
 
