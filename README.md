@@ -12,7 +12,8 @@ DNSmonitor uses pcap and is able to listen silently to the connetions, without n
 QUICK START
 -----------
 
-For the impatient, `sudo ruby DSmontor.rb`. Superuser is needed for Pcap integration. Your screen will show you something in the line of the following paragraph:
+For the impatient, please install required libs with `sudo gem install term-ansicolor dnsruby pcap`.  
+To run the script `sudo ruby DSmontor.rb`. Superuser is needed for Pcap integration. Your screen will show you something in the line of the following paragraph:
 
 	www.lastknight.com.	IN	A || 87.118.111.215:53 || 1.0.239.147 || 46246
 		www.lastknight.com.	120	IN	CNAME	lastknight.com.
@@ -29,7 +30,8 @@ The not indented lines are requests while indented ones are answers.
 FOOLDNS INTEGRATION
 -------------------
 
-DNSmonitor is fully integrated with the [FoolDNS](http://www.fooldns.org) service and answers poisoned by FoolDNS are shown in yellow color.
+DNSmonitor is fully integrated with the [FoolDNS](http://www.fooldns.org) service and answers poisoned by FoolDNS are shown in yellow color.  
+FoolDNS protect your computer and your LAN from behavioral profiling, malware and advertising.  Take a look :)
 
 LOG FORMAT
 ----------
@@ -41,5 +43,6 @@ REQUIREMENTS
 
 * pcap
 * pp
-* term/ansicolor
+* term-ansicolor
 * dnsruby
+
