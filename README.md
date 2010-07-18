@@ -2,6 +2,7 @@ DNSmonitor by Matteo Flora <mf@matteoflora.com>
 
 Copyright 2010 The Fool Srl.
 
+![Image](http://www.lastknight.com/GIT_IMAGES/DNSMonitor.png)
 
 DESCRIPTION
 -----------
@@ -25,9 +26,6 @@ To run the script `sudo ruby DNSmontor.rb`. Superuser is needed for Pcap integra
 		twitter.com.	20	IN	A	168.143.161.20
 		twitter.com.	20	IN	A	168.143.171.180
 		
-![Image](http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg)
-You can find a little Screenshot [here](http://www.lastknight.com/GIT_IMAGES/DNSMonitor.jpg).
-
 The not indented lines are requests while indented ones are answers.
 
 FOOLDNS INTEGRATION
