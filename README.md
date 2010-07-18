@@ -13,7 +13,7 @@ QUICK START
 -----------
 
 For the impatient, please install required libs with `sudo gem install term-ansicolor dnsruby pcap`.  
-To run the script `sudo ruby DSmontor.rb`. Superuser is needed for Pcap integration. Your screen will show you something in the line of the following paragraph:
+To run the script `sudo ruby DNSmontor.rb`. Superuser is needed for Pcap integration. Your screen will show you something in the line of the following paragraph:
 
 	www.lastknight.com.	IN	A || 87.118.111.215:53 || 1.0.239.147 || 46246
 		www.lastknight.com.	120	IN	CNAME	lastknight.com.
